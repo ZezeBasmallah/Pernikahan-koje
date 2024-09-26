@@ -7,7 +7,7 @@
 body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    min-height: 4000vh;
+    /* min-height: 10vh; */
     overflow-x: hidden;
 }
 
@@ -244,8 +244,19 @@ body {
         }
 
         .simply-countdown>.simply-section {
-            padding: 35px;
+            padding: 45px;
             margin: 3px;
+        }
+    }
+
+    @media (min-width: 200px) {
+        body {
+            overflow-x: hidden;
+        }
+
+        .simply-countdown>.simply-section {
+            padding: 35px;
+            margin: 2px;
         }
     }
 }

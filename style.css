@@ -8,7 +8,6 @@ body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
     /* min-height: 10vh; */
-    overflow-x: hidden;
 }
 
 .hero::before {
@@ -86,6 +85,10 @@ body {
 
 .mynavbar .nav-link {
     text-transform: uppercase;
+}
+
+.sticky-top {
+    overflow: hidden;
 }
 
 .home {
@@ -250,9 +253,6 @@ body {
     }
 
     @media (min-width: 200px) {
-        body {
-            overflow-x: hidden;
-        }
 
         .simply-countdown>.simply-section {
             padding: 35px;

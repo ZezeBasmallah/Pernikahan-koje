@@ -440,7 +440,7 @@ body {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
 
     .simply-countdown>.simply-section {
         padding: 35px;
@@ -448,7 +448,7 @@ body {
     }
 
     .timeline li .timeline-panel {
-        width: 50%;
+        width: 60%;
     }
 
 }
